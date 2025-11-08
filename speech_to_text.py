@@ -41,7 +41,7 @@ def save_audio_to_wav(audio_data, sample_rate, filename="temp_audio.wav"):
 async def start_chat():
     await cl.Message(
         content=(
-            "# Welcome to the Shy's Text to Speech AI Assistant!\n\n"
+            "# Welcome to Shy's Voice First AI Assistant!\n\n"
             "**Click the record button to start speaking.**"
         ),
         actions=[
